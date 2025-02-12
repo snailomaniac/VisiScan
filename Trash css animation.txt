@@ -1,0 +1,28 @@
+/* ===============  Animation  =============== */
+body {
+    animation: popIn 300ms ease;
+    transform-origin: center;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.1);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        opacity: 1;
+    }
+}

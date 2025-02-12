@@ -1,0 +1,84 @@
+/*===============  Universal Styling  ===============*/
+h1{
+    font-size: 5rem;
+    font-weight: 400;
+
+    margin: 0;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    margin: 0;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 400;
+
+    margin: 0;
+}
+
+/*===============  Background  ===============*/
+.background{
+    object-fit: fill;
+    position: absolute;
+    z-index: 1;
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 50%;
+
+    right: 0;
+    height: 510px;
+    width: 900px;
+}
+
+/*===============  Overlap  ===============*/
+.container, .backgroundcontainer{
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+}
+
+/*===============  Container  ===============*/
+.bigcontainer{
+    position: relative;
+
+    margin: 0;
+    width: 100%;
+    height: 550px;
+}
+
+.container{
+    position: absolute;
+    z-index: 2;
+    
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 200px;
+}
+
+/*===============  Button  ===============*/
+.qrCodeButton{
+    border: 0;
+    border-radius: 1rem;
+
+    background: #1a5c44;
+    color: #cdefe3;
+    font-size: 2.6rem;
+    text-align: center;
+    text-decoration: none;
+
+    height: 6rem;
+    width: 18rem;
+    margin: 60px;
+}
+
+.qrCodeButton:hover{
+    background: #144231;
+}
+
+.qrCodeButton:active{
+    background: #aa3b3b;
+}

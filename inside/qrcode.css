@@ -1,0 +1,76 @@
+/* ===============  Universal Styling  =============== */
+article {
+    margin-bottom: 100px;
+}
+
+/* ===============  Container  =============== */
+.main-container {
+    display: grid;
+    width: 850px;
+    gap: 2vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-template: 1 / 2;
+    margin: auto;
+}
+
+.qrimgholder {
+    position: relative;
+    background-color: #20654c;
+    border-radius: 24px;
+    display: inline-grid;
+    grid-column: 1/2;
+    row-gap: 1;
+    width: 250px;
+    height: 250px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.qrimgholder img {
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    align-self: flex-end;
+    height: 250px;
+    width: 250px;
+    padding: 12px;
+}
+
+/* ===============  Generate Button  =============== */
+.genbtn {
+    border: 0;
+    border-radius: 8px;
+    background: #4ad29e;
+    color: #0a281d;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    width: 18vw;
+    height: 10vh;
+    margin: auto;
+}
+
+.genbtn:hover {
+    background-color: #2da577;
+    color: #cdefe3;
+}
+
+.genbtn:active {
+    background-color: #aa3b3b;
+    color: #cdefe3;
+}
+
+.centergenbtn {
+    display: flex;
+    align-items: center;
+    margin: 2vh;
+}
+
+/* ===============  Warning Text  =============== */
+.text {
+    grid-column: 2/2;
+    grid-row: 1;
+}

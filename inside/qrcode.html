@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> QR Code | VisiScan</title>         
+        <link rel="stylesheet" href="/inside/qrcode.css"/> 
+        <link rel="stylesheet" href="../style.css"/> 
+    </head>     
+    <body>
+        <hamburger-menu></hamburger-menu>
+        <header-registered></header-registered>
+        <article> 
+            <div class="main-container"> 
+                <div class="qrimgholder"> 
+                    <img src="" id="qrImageGen">
+                </div>
+                <div class="text-warning">
+                    <h3>Important!</h3>
+                    <p>Any actions related to this QR Code<br> 
+                       are linked to your name, and any<br> 
+                       occurrences associated with it<br> 
+                       during your consultation will be<br> 
+                       directly tied to your information.<br> 
+                       Please do not share the QR Code to<br> 
+                       avoid any potential issues.</p> 
+                </div>
+                <button class="genbtn" onclick="generateQR()">Create</button>                 
+            </div>             
+        </article>         
+        <footer-registered></footer-registered>         
+    </body>     
+    <script src="../overlay.js"></script>
+    <script src="qrgen.js"></script>
+</html>
