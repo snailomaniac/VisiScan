@@ -4,7 +4,7 @@
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title> QR Code | VisiScan</title>         
-        <link rel="stylesheet" href="/inside/qrcode.css"/> 
+        <link rel="stylesheet" href="qrcode.css"/> 
         <link rel="stylesheet" href="../style.css"/> 
     </head>     
     <body>
@@ -12,6 +12,8 @@
         <header-registered></header-registered>
         <article> 
             <div class="main-container"> 
+                <input type="hidden" id="firstname" value="<?php echo htmlspecialchars($firstName); ?>">
+                <input type="hidden" id="lastname" value="<?php echo htmlspecialchars($lastName); ?>">
                 <div class="qrimgholder"> 
                     <img src="" id="qrImageGen">
                 </div>
@@ -25,11 +27,11 @@
                        Please do not share the QR Code to<br> 
                        avoid any potential issues.</p> 
                 </div>
-                <button class="genbtn" onclick="generateQR()">Create</button>                 
+                <button class="genbtn" onclick="generateQR()" style="grid-area:2 / 1 / 3 / 3;">Create</button>                 
             </div>             
         </article>         
-        <footer-registered></footer-registered>         
+        <footer-registered></footer-registered>
+        <script src="qrgen.js"></script>
     </body>     
     <script src="../overlay.js"></script>
-    <script src="qrgen.js"></script>
 </html>

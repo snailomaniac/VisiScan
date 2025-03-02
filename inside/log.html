@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> Home | VisiScan</title>         
+        <link rel="stylesheet" href="log.css"/> 
+        <link rel="stylesheet" href="../style.css"/> 
+    </head>
+    <body>
+        <?php
+            session_start();
+        ?>
+        <hamburger-menu></hamburger-menu>
+        <header-registered></header-registered>
+        <h1>Scan Logs</h1>
+        <article>
+        <table>
+            <thead>
+                <tr>
+                    <th>Users</th>
+                    <th>Date</th>
+                    <th>Check In</th>
+                    <th>Check Out</th>
+                </tr>
+            </thead>
+            <tbody id="logTable"></tbody>
+        </table>
+        </article>
+        <footer-registered></footer-registered>
+    </body>
+    <script src="log.js"></script>
+    <script src="../overlay.js"></script>   
+</html>

@@ -2,7 +2,7 @@
 :root {
     @font-face {
         font-family: comfortaa;
-        src: url('assets/fonts/Comfortaa-regular.ttf') format('truetype');
+        src: url('assets/fonts/Comfortaa-Regular.ttf') format('truetype');
         font-weight: 100;
         color: #0a281d;
     }
@@ -30,6 +30,7 @@ body {
     background-color: #ccc;
     margin: 5% 0 0 0;
     padding-top: 2.5rem;
+    padding-bottom: 5;
 }
 
 hr {

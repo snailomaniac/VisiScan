@@ -6,12 +6,12 @@ article {
 /* ===============  Container  =============== */
 .main-container {
     display: grid;
-    width: 850px;
+    width: 618px;
     gap: 2vw;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 300px;
     grid-template: 1 / 2;
-    margin: auto;
+    margin: 25px auto;
 }
 
 .qrimgholder {

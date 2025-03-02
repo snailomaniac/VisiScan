@@ -11,7 +11,7 @@ class NavigationHamburgerMenu extends HTMLElement {
             <ul>
                 <li><button class="menu-btn" onclick="navigateTo('home.html')">Home</button></li>
                 <li><button class="menu-btn" onclick="navigateTo('qrcode.html')">QR Code</button></li>
-                <li><button class="menu-btn" onclick="navigateTo('qrscanner.html')" /disabled>QR Scanner</button></li>
+                <li><button class="menu-btn" onclick="navigateTo('qrscanner.html')">QR Scanner</button></li>
                 <li><button class="menu-btn" onclick="navigateTo('logs.html')" /disabled>Logs</button></li>
                 <li><button class="menu-btn" onclick="navigateTo('about.html')" /disabled>About</button></li>
                 <li><button class="menu-btn" onclick="navigateTo('admin.html')" /disabled>Admin</button></li>
@@ -89,7 +89,7 @@ class HeaderRegistered extends HTMLElement {
         this.innerHTML = `
         <nav class="navinside">
             <div class="navleft">
-                <img src="/assets/logo.png" alt="logo" class="logonav">
+                <img src="../assets/logo.png" alt="logo" class="logonav">
                 <p>Lagro High School<br>VisiScan</p>
             </div>
             <div class="navright">
