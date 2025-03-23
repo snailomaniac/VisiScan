@@ -1,0 +1,74 @@
+/*===============  Universal Styling  ===============*/
+main {
+    margin-bottom: -100px;
+}
+
+/*===============  Button animation  ===============*/
+button, .btn {
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+/*===============  Search Bar  ===============*/
+#logSearch {
+    display: block;
+    background-color: #cdefe3;
+    border: 0;
+    border-radius: 0.65rem;
+    outline: none;
+    height: 40px;
+    width: 450px;
+    margin: 16px auto;
+    text-align: center;
+}
+#logSearch:focus {
+    outline: #0a281d inset 4px;
+}
+
+/*===============  Logs Table  ===============*/
+.container {
+    background-color: #21664d;
+    border-radius: 8px;
+    width: 1100px;
+    margin: auto auto 200px; padding: 16px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #cdefe3;
+    margin: 8px 16px; padding: 0;
+}
+
+.container table tbody {
+    background-color: #cdefe3;
+    color: #21664d;
+}
+
+/*===============  Logs Table  ===============*/
+
+.logTable {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.logTable table {
+    width: 100%; height: max-content;
+    margin: 0 auto; padding: 10px;
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+.logTable thead {
+    position: sticky;
+    background-color: #21664d;
+    color: #cdefe3;
+    padding: 16px;
+    top: 0;
+    z-index: 1;
+}
+
+.logTable th:nth-child(1), .logTable td:nth-child(1) { max-width: 150px; width: 150px; }
+.logTable th:nth-child(2), .logTable td:nth-child(2) { max-width: 100px; width: 100px; }
+.logTable th:nth-child(3), .logTable td:nth-child(3) { max-width: 100px; width: 100px; }
+.logTable th:nth-child(4), .logTable td:nth-child(4) { max-width: 600px; width: 600px; }

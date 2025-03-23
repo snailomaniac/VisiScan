@@ -1,0 +1,64 @@
+/* ===============  Universal Styling  =============== */
+body {
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* ===============  Header  =============== */
+.indexHeader {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.indexLogo {
+    margin: 0 0.5rem 0 0;
+}
+
+.indexTitle {
+    margin: 1rem auto auto 0.3rem;
+    font-size: 1.5rem;
+}
+
+.indexTitle h1,
+.indexTitle h3 {
+    margin: 0.3rem;
+}
+
+/* ===============  Login Button  =============== */
+.indexLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexLoginButton {
+    border: 0;
+    border-radius: 1rem;
+    background: #1a5c44;
+    color: #cdefe3;
+    text-align: center;
+    height: 6rem;
+    width: 14rem;
+    text-decoration: none;
+    font-size: 2.6rem;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+.indexLoginButton:hover {
+    background: #144231;
+}
+
+.indexLoginButton:active {
+    background: #aa3b3b;
+}
+
+.indexLoginText {
+    text-align: center;
+    margin: 0.5rem auto auto auto;
+}

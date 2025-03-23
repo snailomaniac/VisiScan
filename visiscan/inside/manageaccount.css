@@ -1,0 +1,185 @@
+/*===============  Universal Styling  ===============*/
+main {
+    margin-bottom: 100px;
+}
+
+/*===============  Button animation  ===============*/
+button, .btn {
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+/*===============  Search Bar  ===============*/
+#accountSearch {
+    display: block;
+    background-color: #cdefe3;
+    border: 0;
+    border-radius: 0.65rem;
+    outline: none;
+    height: 40px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+#accountSearch:focus {
+    outline: #0a281d inset 4px;
+}
+
+/*===============  Content  ===============*/
+.container {
+    background-color: #21664d;
+    border-radius: 8px;
+    color: #cdefe3;
+    font-size: 15px;
+    width: fit-content;
+    margin: 0 auto; padding: 16px;
+}
+
+.container h1 {
+    color: #cdefe3;
+    margin: 16px ; padding: 0;
+    text-align: center;
+}
+
+.container table tbody {
+    background-color: #cdefe3;
+    color: #21664d;
+}
+
+.container table thead {
+    background-color: #21664d;
+    color: #cdefe3;
+    padding: 16px;
+}
+
+.container table tr:first-child th:last-child {
+    border-radius: 16px;
+}
+
+.container table{
+    width: fit-content; height: max-content;
+    margin: 0 auto; padding: 10px;
+}
+
+/*===============  Logs Table  ===============*/
+.logTable {
+    max-height: 700px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.logTable table {
+    width: 100%; height: max-content;
+    margin: 0 auto; padding: 10px;
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+.logTable thead {
+    position: sticky;
+    background-color: #21664d;
+    color: #cdefe3;
+    padding: 16px;
+    top: 0;
+    z-index: 1;
+}
+
+.logTable tbody tr:hover {
+    background-color: #c1e0d5;
+    outline: #b4d1c7 solid 1px;
+}
+
+.logTable th:nth-child(1), .logTable td:nth-child(1) { max-width: 50px; width: 40px; }
+.logTable th:nth-child(2), .logTable td:nth-child(2) { max-width: 110px; width: 110px; }
+.logTable th:nth-child(3), .logTable td:nth-child(3) { max-width: 100px; width: 100px; }
+.logTable th:nth-child(4), .logTable td:nth-child(4) { max-width: 200px; width: 200px; }
+.logTable th:nth-child(5), .logTable td:nth-child(5) { max-width: 100px; width: 100px; }
+.logTable th:nth-child(6), .logTable td:nth-child(6) { max-width: 100px; width: 100px; }
+.logTable th:nth-child(7), .logTable td:nth-child(7) { max-width: 300px; width: 300px; }
+
+/*===============  Buttons Container  ===============*/
+.buttonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+}
+
+/*===============  Delete Buttons  ===============*/
+.accountverify-button {
+    display: block;
+    background-color: #21664d;
+    border: 0;
+    border-radius: 4px;
+    color: #cdefe3;
+    width: 100px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.accountverify-button:hover {
+    background-color: #3b9e78;
+    color: #0a281d;
+}
+
+.accountverify-button:active {
+    background-color: #912828;
+}
+
+/*===============  Delete Buttons  ===============*/
+.delete-button {
+    display: block;
+    background-color: #cc3e3e;
+    border: 0;
+    border-radius: 4px;
+    color: #cdefe3;
+    width: 100px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.delete-button:hover {
+    background-color: #ff6767;
+    color: #0a281d;
+}
+
+.delete-button:active {
+    background-color: #912828;
+}
+
+/*===============  Add Account  ===============*/
+.regular, .regular tbody, .regular tr{
+    background-color: #21664d;
+    color: #cdefe3;
+}
+
+.regular input {
+    background-color: #cdefe3;
+    border: 0;
+    border-radius: 8px;
+    color: #0a281d;
+    height: 32px;
+    width: 230px;
+}
+
+.regular button[type="submit"] {
+    background-color: #cdefe3;
+    border: 0;
+    border-radius: 0.65rem;
+    color: #21664d;
+
+    font-size: 1rem;
+    font-weight: 800;
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 65px;
+}
+
+.regular button[type="submit"]:hover{
+    background-color: #3b9e78;
+    color: #0a281d;
+}
+
+.regular button[type="submit"]:active{
+    background-color: #aa3b3b;
+}

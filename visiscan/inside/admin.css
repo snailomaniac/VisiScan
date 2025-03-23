@@ -1,0 +1,55 @@
+/*===============  Universal Styling  ===============*/
+
+/*===============  Container  ===============*/
+.maincontainer {
+    background-color: #21664d;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 50px auto; padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    box-shadow: 8px 8px 0 #00000052;
+}
+
+.sectioncontainer {
+    background-color: #cdefe3;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.sectioncontainer p{
+    height: 3rem;
+}
+
+/*===============  Link Buttons  ===============*/
+.sectioncontainer button {
+    display: flex;
+    background-color: #1a5c44;
+    color: #cdefe3;
+    border: 0;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    align-content: center;
+    text-decoration: none;
+    width: 200px; height: 50px;
+    margin: 10px auto; padding: 10px;
+    box-shadow: 4px 8px 0px #00000052;
+}
+
+.sectioncontainer button:hover {
+    background-color: #144231;
+}
+
+.sectioncontainer button:active {
+    box-shadow: 2px 4px 1px #00000052;
+    background-color: #aa3b3b;
+    transform: translateY(2px);
+}
+
+.sectioncontainer button:disabled {
+    background-color: #2d4b40;
+    transform: translateY(0);
+    box-shadow: 4px 8px 0px #00000052;
+}

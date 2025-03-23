@@ -1,0 +1,71 @@
+/*===============  Button animation  ===============*/
+button, .btn {
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+/* ===============  Universal Styling  =============== */
+
+/* ===============  Container  =============== */
+.container {
+    background-color: #21664d;
+    border-radius: 16px;
+    color: #cdefe3;
+    width: 500px;
+    margin: auto; padding: 16px 32px;
+    margin-bottom: 25vh;
+}
+
+/* ===============  Container  =============== */
+.pfp{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.change-pfp img{
+    border-radius: 100%;
+    border: solid 5px #0a281d;
+    transition: border 200ms ease, color 200ms ease;
+}
+
+.change-pfp img:hover {
+    border: solid 5px #3b9e78;
+}
+
+.change-pfp img:active {
+    border: solid 5px #aa3b3b;
+}
+
+.update-pfp {
+    background-color: #cdefe3;
+    border: 0;
+    border-radius: 4px;
+    color: #21664d;
+    
+    font-family: comfortaa;
+    font-size: 1.1rem;
+    font-weight: 800;
+
+    margin: auto; padding: 8px 16px;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+.update-pfp:hover {
+    background-color: #3b9e78;
+    color: #21664d;
+}
+
+.update-pfp:active {
+    background-color: #aa3b3b;
+    color: #cdefe3;
+}

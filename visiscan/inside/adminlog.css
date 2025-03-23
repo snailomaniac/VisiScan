@@ -1,0 +1,91 @@
+/*===============  Logs Table  ===============*/
+#logSearch {
+    display: block;
+    background-color: #cdefe3;
+    border: 0;
+    border-radius: 0.65rem;
+    outline: none;
+    height: 40px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+#logSearch:focus {
+    outline: #0a281d inset 4px;
+}
+
+/*===============  Container  ===============*/
+.container {
+    background-color: #21664d;
+    border-radius: 8px;
+    color: #cdefe3;
+    font-size: 15px;
+    width: 90vw;
+    max-width: min-content;
+    max-height: 800px;
+    margin: 0 auto; padding: 16px;
+}
+
+.container h1 {
+    color: #cdefe3;
+    margin: 16px ; padding: 0;
+    text-align: center;
+}
+
+/*===============  Container  ===============*/
+.logTable {
+    max-height: 700px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.logTable table {
+    width: 100%; height: max-content;
+    margin: 0 auto; padding: 10px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.logTable thead {
+    position: sticky;
+    background-color: #21664d;
+    color: #cdefe3;
+    padding: 16px;
+    top: 0;
+    z-index: 1;
+}
+
+.container table tbody {
+    background-color: #cdefe3;
+    color: #21664d;
+}
+
+.logTable tbody tr:hover {
+    background-color: #c1e0d5;
+    outline: #b4d1c7 solid 1px;
+}
+
+.logTable table tr:first-child th:last-child {
+    border-radius: 16px;
+}
+
+/* Column Width Fix */
+.logTable th, .logTable td {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logTable th:nth-child(1), .logTable td:nth-child(1) { width: 100px; }
+.logTable th:nth-child(2), .logTable td:nth-child(2) { width: 70px; }
+.logTable th:nth-child(3), .logTable td:nth-child(3) { width: 70px; }
+.logTable th:nth-child(4), .logTable td:nth-child(4) { width: 100px; }
+.logTable th:nth-child(5), .logTable td:nth-child(5) { width: 110px; }
+.logTable th:nth-child(6), .logTable td:nth-child(6) { width: 120px; }
+.logTable th:nth-child(7), .logTable td:nth-child(7) { width: 120px; }
+.logTable th:nth-child(8), .logTable td:nth-child(8) { width: 300px; }
+.logTable th:nth-child(9), .logTable td:nth-child(9) { width: 180px; }
+.logTable th:nth-child(10), .logTable td:nth-child(10) { width: 90px; }
+.logTable th:nth-child(11), .logTable td:nth-child(11) { width: 200px; }
+.logTable th:nth-child(12), .logTable td:nth-child(12) { width: 90px;  }
